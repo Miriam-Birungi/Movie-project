@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    background-image: url("https://images.pexels.com/photos/7991582/pexels-photo-7991582.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    background-size: cover;
+}
+
+.movie-container{
+    margin-top: 54px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-container{
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: slateblue;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    margin-top: 0;
+    
+}
+
+.navbar-container ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-container ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: black;
+    font-family: cursive;
+}
+
+.navbar-container ul li a:hover{
+    color: white;
+}
+
+.content{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.content img{
+    /* max-width: 100%; */
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+h1{
+    text-align: center;
+    font-family: cursive;
+}
+.main-para{
+    text-align: center;
+    width: 60%;
+    font-size: 18px;
+    font-family: "roboto";
+    letter-spacing: 2px;
+}
+
+.pics{
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+}
+.fav{
+    width: 200px;
+    display: flex;
+   border-radius: 15px;
+}
+.genre-container{
+    width: 200px;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0,0,0,.7);
+    background-color: slateblue;
+    border-radius: 15px;
+}
+
+.movie-genres{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex: 1;
+}
+
+.favourite-container{
+    width: 200px;
+    display: inline-block;
+    background-color: slateblue;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.7);
+    padding-bottom: 10px;
+    
+}
+
+.title{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    font-family: cursive;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.title:hover{
+    background-color: orange;
+}
+
+.categories{
+    color: white;
+    text-align: center;
+    font-family: roboto;
+    font-size: 28px;
+    letter-spacing: 4px;
+    margin-top: 80px;
+}
+
+.top-five{
+    color: white;
+    text-align: center;
+    font-family: roboto;
+    font-size: 28px;
+    letter-spacing: 4px;
+    margin-top: 80px;
+}
+
+ .fav-content{
+   align-items: center;
+   text-align: center;
+} 
+
+.bottom-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex: 1;
+    
+}
+
+.number{
+    width: 50px;
+    height: 40px;
+    border-radius: 50px;
+    border-color: red;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.movie-title{
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+    margin-top: 5px;
+}
+
+.btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: black;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+.about-container{
+    background-color: slategray;
+    display: flex;
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+    box-shadow: 0 4px 8px rgba(0,0,0,.7);
+}
+
+.subscribe-container{
+    background-color: slategray;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.film-form{
+    width: 200px;
+    height: 30px;
+}
+
+.subscribe-btn{
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+    background-color: red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.subscribe-btn:hover{
+    background-color: orangered;
+}
+
+.sub-words{
+    color: white;
+    margin-right: 20px;
+}
+
+/* .close-icon{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    cursor:pointer;
+} */
